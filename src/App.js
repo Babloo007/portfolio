@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { createBrowserRouter, Outlet } from 'react-router-dom';
+import './index.css';
+import Header from './components/Header';
+// import Footer from './components/Footer';
+import Home from './components/Home';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Error from './components/Error';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className='px-56 py-6 flex flex-col min-h-screen bg-slate-900 text-white' style={{ fontFamily: 'JetBrains Mono, monospace' }}>
+          <Header />
+          <div className='mx-28'>
+              <Outlet />
+          </div>
+      </div>
+  )
 }
 
-export default App;
+const appRouter = createBrowserRouter([
+  {
+      path: '/',
+      element: <App />,
+      children: [
+          {
+              path: '/',
+              element: <Home className='mb-4' />
+          },
+          {
+              path: '/services',
+              element: <Services />
+          },
+          {
+              path: '/contact',
+              element: <Contact />
+          },
+          {
+              path: '/resume',
+              element: <Resume />
+          },
+      ],
+      errorElement: <Error />
+  },
+]);
+
+export {appRouter};
