@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/project1.png";
 import NoteIMG from "../../assets/NoteApp.png";
-import SocialIMG from "../../assets/SocialAppDark.png";
+import SocialIMG from "../../assets/SocialApp.PNG";
 import FilmIMG from "../../assets/FilmFliker.png";
 import IMG2 from "../../assets/project2.png";
 const Portfolio = () => {
@@ -18,7 +18,7 @@ const Portfolio = () => {
           </div>
           <h3>SocialCircle - Social Media Web-App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/SocialCircle" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Babloo007/SocialCircle" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
           <h3>FilmFliker - Movie Catalog Web-App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/FilmFliker" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Babloo007/FilmFliker" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
@@ -56,7 +56,7 @@ const Portfolio = () => {
           </div>
           <h3>NoteApp - Note Taking Web-App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/NoteApp" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Babloo/NoteApp" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
@@ -75,12 +75,12 @@ const Portfolio = () => {
           </div>
           <h3>My Portfolio</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ManishK4514/PersonalPortfolio" 
+            <a href="https://github.com/Babloo007/portfolio" 
                 className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
-              href="https://manishk4514.vercel.app/"
+              href="https://Babloo007.vercel.app/"
               className="btn btn-primary"
               target="_blank" rel="noreferrer"
             >
@@ -95,7 +95,7 @@ const Portfolio = () => {
           <h3>Disney + Hotstar Clone - Movie Catalog</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/ManishK4514/DisneyPlusClone.github.io"
+              href="https://github.com/Babloo007/DisneyPlusClone.github.io"
               className="btn"
               target="_blank" rel="noreferrer"
             >

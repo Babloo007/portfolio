@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/file.png";
+import ME from "../../assets/me.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa";
 import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
@@ -20,14 +20,14 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Student</h5>
-              <small>Chandigarh University</small>
+              <h5>Software Engineer</h5>
+              <small>ArganoKeste</small>
             </article>
 
             <article className="about__card">
               <FaUserGraduate className="about__icon" />
-              <h5>course</h5>
-              <small>Distance MCA</small>
+              <h5>Education</h5>
+              <small>B.Tech, CSE</small>
             </article>
 
             <article className="about__card">
@@ -38,12 +38,9 @@ const About = () => {
           </div>
 
           <p id="para">
-            I am looking for an Entry-level position in the field of Mern stack Development or Software
-            Development. Currently pursuing Distance MCA from Chandigarh University, And I have a good knowledge of Java, Reactjs, NodeJs, Express Js, MongoDB, C, C++,
-            Data Structures and Algorithms, HTML, CSS and JavaScript.
-            Looking for an Internship opportunity or a Full-time opportunity as
-            a Software Developer to follow my passion and that is Solving
-            Problems.
+            I have been working as Software Developer. Currently working as Salesforce Developer in ArganoKeste. And I have a good knowledge on Java, Reactjs, NodeJs, Express Js, MongoDB, C, C++,
+            Data Structures and Algorithms, HTML, CSS and JavaScript. I have also been working on building the side projects focusing on Backend using java.
+            I'm also a competitive programmer.
           </p>
 
           <a href="#contact" className="btn btn-primary">
