@@ -80,7 +80,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://Babloo007.vercel.app/"
+              href="https://portfolio-git-master-babloo007s-projects.vercel.app/"
               className="btn btn-primary"
               target="_blank" rel="noreferrer"
             >
