@@ -49,7 +49,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>msvreddy77@gmail.com</h5>
-            <a href="mailto:manish80842@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:msvreddy77@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
