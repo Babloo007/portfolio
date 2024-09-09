@@ -66,7 +66,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={NoteIMG} alt="" />
           </div>
-          <h3>NoteApp - Note Taking Web-App</h3>
+          <h3>Today Fact - One Fact a Day</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Babloo007/Learn-a-Fact-Today"
