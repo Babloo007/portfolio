@@ -15,8 +15,11 @@ const Profiles = () => {
           <SiLeetcode className="profile__option-icon" />
           <h4>Leetcode</h4>
           <h5 className="light-grey">100+ Problems</h5>
-          <a href="https://leetcode.com/u/saivenkat7/" 
-            target="_blank" rel='noreferrer'>
+          <a
+            href="https://leetcode.com/u/saivenkat7/"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Profile
           </a>
         </article>
@@ -24,8 +27,11 @@ const Profiles = () => {
           <SiGeeksforgeeks className="profile__option-icon" />
           <h4>Geeks For Geeks</h4>
           <h5 className="light-grey">160+ Score</h5>
-          <a href="https://auth.geeksforgeeks.org/user/manishk4514"
-            target="_blank" rel='noreferrer'>
+          <a
+            href="https://www.geeksforgeeks.org/user/msvreddy77/"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Profile
           </a>
         </article>
@@ -33,8 +39,11 @@ const Profiles = () => {
           <SiCodingninjas className="profile__option-icon" />
           <h4>Coding Ninjas</h4>
           <h5 className="light-grey">1521 Rating</h5>
-          <a href="https://www.naukri.com/code360/profile/Babloo" 
-            target="_blank" rel='noreferrer'>
+          <a
+            href="https://www.naukri.com/code360/profile/Babloo"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Profile
           </a>
         </article>
